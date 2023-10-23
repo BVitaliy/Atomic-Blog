@@ -16,10 +16,10 @@ function List({ items, type }) {
 
           {item.username && (
             <div className="d-flex justify-between align-items-center">
-              <Link className="btn primary" to={`posts/${item.id}`}>
+              <Link className="btn primary" to={`/posts/${item.id}`}>
                 Posts
               </Link>
-              <Link className="btn secondary" to={`albums/${item.id}`}>
+              <Link className="btn secondary" to={`/albums/${item.id}`}>
                 Albums
               </Link>
             </div>
